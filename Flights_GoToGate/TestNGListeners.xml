@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GotoGate Testsuite">
+<test name="Newyork Test">
+	<classes>
+		<class name="co.uk.gotogatefltights.NewYorkTest"></class>
+	</classes>
+</test>
+<test name="ChicagoTest">
+	<classes>
+		<class name="co.uk.gotogatefltights.ChicagoTest"></class>
+	</classes>
+</test>
+</suite>
