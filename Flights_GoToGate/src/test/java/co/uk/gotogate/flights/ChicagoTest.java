@@ -87,7 +87,7 @@ public class ChicagoTest {
 
 	@AfterMethod
 	public void teardown() {
-		driver.close();
+		driver.quit();
 		System.out.println("ran succesfully");
 	}
 }
