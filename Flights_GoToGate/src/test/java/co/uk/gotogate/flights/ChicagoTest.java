@@ -88,6 +88,6 @@ public class ChicagoTest {
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
-		System.out.println("ran succesfully");
+		System.out.println("ran succesfully!");
 	}
 }
